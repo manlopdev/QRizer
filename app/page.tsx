@@ -1,0 +1,15 @@
+"use client";
+import Header from "@/components/Header";
+import MainCard from "@/components/MainCard";
+import Image from "next/image";
+import * as React from "react";
+import { QRCode } from "react-qrcode-logo";
+
+export default function Home() {
+  return (
+    <main>
+      <Header />
+      <MainCard />
+    </main>
+  );
+}
