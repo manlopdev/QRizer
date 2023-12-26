@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🖼️ QRizer: Generate your own QR code in 0.0 seconds.
 
-## Getting Started
+![Cover image of a QRizer, a QR code generator web app](images/readme-cover.png)
 
-First, run the development server:
+## 📋 Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. [💡 Description](#description)
+2. [🎓 Usage](#usage)
+3. [🚀 Deploy it locally](#deploy)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<a id="description"></a>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💡 Description
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+QRizer is a web application that lets you create your own, and customized QR codes.
 
-## Learn More
+This is the actual customization range:
 
-To learn more about Next.js, take a look at the following resources:
+- Encode a website URL or any other text.
+- Foreground color.
+- Background color.
+- Line style (Squares or Dots).
+- Custom logo image.
+- Error correction level.
+- Quiet zone.
+- QR code size.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The QR code is generated instantly after any change in the customization and it can be downloaded as a PNG file.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<a id="usage"></a>
 
-## Deploy on Vercel
+## 🎓 Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The steps that have to be followed in order to create the code are quite simple:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Enter the website URL (or any text) you want to encode.
+2. Customize your code based on your needs.
+3. Press download... and that is it! 🎉
+
+<a id="deploy"></a>
+
+## 🚀 Deploy it locally
+
+In order to deploy this web application locally:
+
+1. Clone this repository: `git clone https://github.com/manlopdev/QRizer.git`
+2. Enter the root folder: `cd QRizer`
+3. Install all the dependencies: `npm install`
+4. Run the project: `npm run dev`
+5. Access `http://localhost:3000/`
