@@ -41,7 +41,9 @@ export default function AdvancedSettings({
                 type="number"
                 id="qz"
                 defaultValue={quietZone}
-                onChange={(e) => setQuietZone(e.target.valueAsNumber)}
+                onChange={(e) =>
+                  setQuietZone(Math.min(e.target.valueAsNumber, 100))
+                }
                 min={0}
                 max={100}
                 step={1}
